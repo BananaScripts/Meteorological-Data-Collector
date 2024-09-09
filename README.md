@@ -33,7 +33,7 @@ Nós somos estudantes da <a href='https://fatecsjc-prd.azurewebsites.net/'>FATEC
  
  <span id="tecnologias">
  
- ### Ferramentas e Tecnologias
+ ### Ferramentas e Tecnologias⚒️
  
  <p align="center"> 
 <img src="https://img.shields.io/badge/Figma-5751D3?style=for-the-badge&logo=figma&logoColor=EDF0F9"/>
@@ -51,7 +51,7 @@ Nós somos estudantes da <a href='https://fatecsjc-prd.azurewebsites.net/'>FATEC
 
 <span id="entregas">
 
-### Entregas
+### Entregas✅
 
 Sprint ID | Data | Histórico | Status |
 ----------|------|-----------|--------|
@@ -64,7 +64,7 @@ Sprint ID | Data | Histórico | Status |
 
 <span id="metodologia">
 
-### Integração e Entrega Contínua
+### Integração e Entrega Contínua🚚
 <p>
     A integração contínua e a entrega contínua são práticas essenciais para o desenvolvimento ágil e de alta qualidade em projetos de software. A integração contínua permite identificar e resolver problemas de integração rapidamente, enquanto a entrega contínua possibilita a liberação rápida de novas funcionalidades para os usuários. Para aplicar essas práticas, é fundamental utilizar ferramentas e técnicas específicas, como sistemas de integração contínua, testes automatizados e ferramentas de deployment automatizado. Essas ferramentas não apenas aumentam a eficiência do processo de desenvolvimento, mas também promovem um ambiente colaborativo e ágil, com foco na entrega de valor para o usuário final.
 </p>
@@ -77,7 +77,7 @@ Sprint ID | Data | Histórico | Status |
 
 <span id="backlog">
  
- ### Backlogs e User Stories
+ ### Backlogs e User Stories📖
  
 
 <h4> Backlog do produto</h4>
@@ -94,7 +94,7 @@ Sprint ID | Data | Histórico | Status |
 
 <span id="documentacao">
  
- ### Documentação
+ ### Documentação📄
  
 <h4>Modelo de dados</h4>
 <br>
@@ -107,7 +107,7 @@ Sprint ID | Data | Histórico | Status |
 
 <span id="equipe">
 
-### Equipe:
+### Equipe👨‍💻:
 
 | Nome | LinkedIn | Github |
 |:-----:|:----------:|:---------:|
