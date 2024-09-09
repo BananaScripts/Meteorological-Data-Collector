@@ -38,6 +38,7 @@ Nós somos estudantes da <a href='https://fatecsjc-prd.azurewebsites.net/'>FATEC
  <p align="center"> 
 <img src="https://img.shields.io/badge/Figma-5751D3?style=for-the-badge&logo=figma&logoColor=EDF0F9"/>
 <img src="https://img.shields.io/badge/CSS3-5751D3?style=for-the-badge&logo=css3&logoColor=EDF0F9"/> 
+<img src="https://img.shields.io/badge/HTML5-5751D3?style=for-the-badge&logo=html5&logoColor=EDF0F9"/> 
 <img src="https://img.shields.io/badge/React-5751D3?style=for-the-badge&logo=react&logoColor=EDF0F9"/> 
 <br> 
 <img src="https://img.shields.io/badge/JavaScript-5751D3?style=for-the-badge&logo=javascript&logoColor=EDF0F9"/>
