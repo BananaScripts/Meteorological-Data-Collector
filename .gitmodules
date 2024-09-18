@@ -1,0 +1,6 @@
+[submodule "Meteorological-Data-Collector-Frontend"]
+	path = Meteorological-Data-Collector-Frontend
+	url = https://github.com/BananaScripts/Meteorological-Data-Collector-Frontend
+[submodule "Meteorological-Data-Collector-Backend"]
+	path = Meteorological-Data-Collector-Backend
+	url = https://github.com/BananaScripts/Meteorological-Data-Collector-Backend
