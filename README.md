@@ -94,6 +94,16 @@ Sprint ID | Data | Histórico | Status |
 
 <br>
 
+### DoD e DoR
+DoR (Definition of Ready) | DoD (Definition of Done) |
+-------------------------|---------------------------|
+As User Stories devem estar claras, e o design da interface deve estar finalizado.| O sistema permite cadastrar, editar, visualizar e excluir estações. Os dados são validados corretamente, a interface é intuitiva.| 
+Parâmetros, unidades de medida e requisitos de validação devem estar definidos, além do design da interface de configuração finalizado. | O sistema permite gerenciar parâmetros com validação adequada. | 
+Critérios de alerta, notificações e histórico devem estar especificados, com o design da interface pronto.| O sistema configura alertas, envia notificações automáticas e registra o histórico. |
+Campos de cadastro e regras de validação, níveis de acesso e design da interface devem estar definidos. | O sistema permite o gerenciamento de usuários, com validações corretas e interface funcional. | 
+Conteúdo educativo (textos explicativos sobre parâmetros meteorológicos) deve estar pronto. Estrutura de navegação e design das telas definidas. | O sistema apresenta textos explicativos de maneira clara e acessível, permitindo que os usuários entendam os conceitos dos parâmetros monitorados. As telas de navegação estão funcionando corretamente, e a documentação foi concluída. |
+Estrutura dos dashboards definida| Os dashboards com os dados dos parâmetros monitorados pelas estações devem ser exibidos
+
 <span id="documentacao">
  
  ### Documentação📄
