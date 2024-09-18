@@ -2,10 +2,11 @@
 
 <h1 align="center">API 2024.2 - SETH</h1>
  <p align="center">
-     <a href="#sobre">Sobre</a> • 
+     <a href="#sobre">Sobre</a> •
+     <a href="#comorodar">Como rodar o projeto</a> •
      <a href="#tecnologias">Ferramentas e Tecnologias</a> •
      <a href="#entregas">Entregas</a> • 
-     <a href="#metodologia">Integração e Entrega Contínua</a> •
+     <a href="#metodologia">Integração e Entrega Contínua</a>•
      <a href="#backlog">Backlogs e User Stories</a> •
      <a href="#documentacao">Documentação</a> •
      <a href="#equipe">Equipe</a> 
@@ -23,12 +24,13 @@ Nós somos estudantes da <a href='https://fatecsjc-prd.azurewebsites.net/'>FATEC
 <p>Para garantir o sucesso desse projeto, é essencial que os dados enviados pelos sensores sejam coletados e processados de forma que possam ser exibidos em um portal, com relatórios e dashboards. Além de fornecer informações e incluir conceitos matemáticos para o cálculo dos parâmetros, o sistema também visa demonstrar a importância do monitoramento ambiental. Isso é feito através da geração de alertas, ajudando a prevenir possíveis desastres naturais.
 
 
-
-
 </p>
 
  #### Status do projeto: Em Desenvolvimento ⏳
   
+
+<a href="/Docs/Comorodar.md">Como rodar o projeto</a>
+
  <br>
  
  <span id="tecnologias">
