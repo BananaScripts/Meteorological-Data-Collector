@@ -100,11 +100,11 @@ Sprint ID | Data | Histórico | Status |
  
 <h4>Modelo de Dados</h4>
 <br>
-<img src="./Doc/Kickoff/Images/ModeloBD_API-Kickoff.png" width="1000"/>
+<img src="./Docs/Images/ModeloBD_API-Kickoff.png" width="1000"/>
 <br>
 <h4>Arquitetura do Projeto</h4>
 <br>
-<img src="./Doc/Kickoff/Images/Arquitetura_BananaScript.png" width="1000"/>
+<img src="./Docs/Images/Arquitetura_BananaScript.png" width="1000"/>
 <br>
 
 <br>
