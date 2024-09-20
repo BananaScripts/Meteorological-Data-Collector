@@ -79,18 +79,50 @@ Sprint ID | Data | Histórico | Status |
 
 <span id="backlog">
  
- ### Backlogs e User Stories📖
- 
+ ## User Stories📖
 
-<h4> Backlog do produto</h4>
-<br>
-<img src="" width="1000"/>
-</br>
 
-<h4> User Stories</h4>
-<br>
-<img src="" width="1000"/>
-</br>
+### Gerenciamento de Estações
+1. **Como administrador**, quero poder cadastrar novas estações meteorológicas, fornecendo informações como nome, localização e UUID, para que elas possam começar a enviar dados ao sistema.
+2. **Como administrador**, quero uma interface intuitiva onde possa visualizar e gerenciar todas as estações cadastradas, permitindo verificar suas informações.
+3. **Como administrador**, quero poder editar as informações de uma estação já cadastrada, como nome ou localização, para manter os dados sempre atualizados e refletir mudanças no ambiente físico.
+4. **Como administrador**, quero poder excluir uma estação meteorológica do sistema, para remover estações que não estão mais em uso.
+
+### Gerenciamento de Parâmetros
+1. **Como administrador**, quero poder definir e configurar os tipos de parâmetros monitorados por cada estação, para garantir que cada estação colete os dados adequados de forma padronizada.
+2. **Como administrador**, quero poder editar os tipos de parâmetros monitorados por cada estação, para ajustar as medições conforme necessário.
+3. **Como administrador**, quero poder visualizar uma lista dos tipos de parâmetros com suas unidades de medida, nome e fator, para revisar ou ajustar as configurações conforme necessário.
+4. **Como administrador**, quero poder excluir tipos de parâmetros específicos, caso não sejam mais necessários para o monitoramento das estações.
+
+### Gerenciamento de Alertas
+1. **Como administrador**, quero poder configurar alertas baseados nos tipos de parâmetros monitorados, para que o sistema me avise quando valores críticos forem atingidos.
+2. **Como usuário**, quero receber notificações automáticas quando um alerta for acionado, para que eu possa tomar as medidas necessárias.
+3. **Como administrador**, quero que o sistema registre automaticamente os alertas gerados, com informações como o parâmetro que os causou, o valor registrado e a hora do evento.
+4. **Como administrador**, quero poder visualizar um histórico dos alertas gerados, para revisar eventos anteriores e identificar padrões ou problemas recorrentes.
+
+### Gerenciamento de Usuários
+1. **Como administrador**, quero poder cadastrar novos usuários, fornecendo nome, email e senha, para que o sistema tenha controle de permissões e acesso seguro.
+2. **Como administrador**, quero poder visualizar uma lista de todos os usuários cadastrados no sistema, com detalhes como nome e nível de acesso, para monitorar quem tem acesso ao sistema.
+3. **Como administrador**, quero poder editar as informações de um usuário já cadastrado, como o nome ou senha, para manter os dados sempre atualizados e garantir a segurança do acesso.
+4. **Como administrador**, quero poder excluir usuários do sistema, para remover o acesso de pessoas que não devem mais utilizar a plataforma.
+
+### Recepção dos Dados das Estações Meteorológicas
+1. **Como administrador**, quero que o sistema receba os dados enviados pelas estações meteorológicas, para que eles sejam processados e armazenados corretamente.
+2. **Como sistema**, preciso identificar corretamente cada estação através de seu UUID e registrar a data e hora do envio dos dados, para garantir a consistência e rastreabilidade das informações.
+
+### Tratamento dos Dados Coletados pelas Estações
+1. **Como sistema**, preciso processar e organizar os dados recebidos, descartando informações desnecessárias, para que apenas os parâmetros relevantes sejam armazenados.
+
+### Dashboards para Visualização dos Parâmetros Meteorológicos
+1. **Como usuário**, quero visualizar os dados coletados das estações meteorológicas através de dashboards, para monitorar as condições climáticas de forma eficiente.
+
+### Educação para Estudantes
+1. **Como usuário**, quero acessar textos que expliquem o significado de cada parâmetro meteorológico, para entender os conceitos monitorados pelas estações.
+
+### Criação das Telas
+1. **Como usuário**, quero telas navegáveis que me permitam visualizar explicações sobre os parâmetros meteorológicos e os dados coletados das estações em dashboards, para uma experiência educativa integrada.
+
+
 
 <br>
 
