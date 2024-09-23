@@ -21,9 +21,12 @@ Nós somos estudantes da <a href='https://fatecsjc-prd.azurewebsites.net/'>FATEC
 ### Sobre o projeto:
 <p>A Tecsus é uma startup que se especializa na coleta e processamento de dados utilizando redes de sensores sem fio, também conhecidas como Internet das Coisas (IoT). Esses dados são aplicados em setores como abastecimento de água, distribuição de eletricidade e gás natural. Com o objetivo de diversificar seu portfólio para incluir o monitoramento ambiental e integrar alunos do Ensino Médio em uma abordagem de aprendizagem baseada em problemas, a Tecsus decidiu criar estações meteorológicas acessíveis e de baixo custo.</p>
 <p>Para garantir o sucesso desse projeto, é essencial que os dados enviados pelos sensores sejam coletados e processados de forma que possam ser exibidos em um portal, com relatórios e dashboards. Além de fornecer informações e incluir conceitos matemáticos para o cálculo dos parâmetros, o sistema também visa demonstrar a importância do monitoramento ambiental. Isso é feito através da geração de alertas, ajudando a prevenir possíveis desastres naturais.
-
-
 </p>
+
+## Link dos repositórios
+<a href="https://github.com/BananaScripts/Meteorological-Data-Collector-Frontend/tree/main">Front-end</a>
+<a href="https://github.com/BananaScripts/Meteorological-Data-Collector-Backend/tree/main">Back-end</a>
+
 
  #### Status do projeto: Em Desenvolvimento ⏳
   
