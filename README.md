@@ -54,12 +54,12 @@ Nós somos estudantes da <a href='https://fatecsjc-prd.azurewebsites.net/'>FATEC
 
 ### Entregas✅
 
-Sprint ID | Data | Histórico | Status |
-----------|------|-----------|--------|
-#1 | 09.09.2024 - 29.09.2024 | <a href="">Relatório</a>| ❌
-#2 | 30.09.2024 - 20.10.2024 | <a href="">Relatório</a> | ❌
-#3 | 21.10.2024 - 10.11.2024 | <a href="">Relatório</a> | ❌
-#4 | 11.11.2024 - 01.12.2024 | <a href="">Relatório</a> | ❌
+Sprint ID | Data | Status |
+----------|------| --------|
+#1 | 09.09.2024 - 29.09.2024 | ❌
+#2 | 30.09.2024 - 20.10.2024 | ❌
+#3 | 21.10.2024 - 10.11.2024 | ❌
+#4 | 11.11.2024 - 01.12.2024 | ❌
 
 <br>
 
