@@ -24,8 +24,9 @@ Nós somos estudantes da <a href='https://fatecsjc-prd.azurewebsites.net/'>FATEC
 </p>
 
 ## Link dos repositórios
-<p>Link do repositório do Front-end: </p><a href="https://github.com/BananaScripts/Meteorological-Data-Collector-Frontend/tree/main">https://github.com/BananaScripts/Meteorological-Data-Collector-Frontend/tree/main</a>
-<p>Link do repositório do Back-end: </p><a href="https://github.com/BananaScripts/Meteorological-Data-Collector-Backend/tree/main">https://github.com/BananaScripts/Meteorological-Data-Collector-Backend/tree/main</a>
+<p>Link do repositório do Front-end: <a href="https://github.com/BananaScripts/Meteorological-Data-Collector-Frontend/tree/main">https://github.com/BananaScripts/Meteorological-Data-Collector-Frontend/tree/main</a></p>
+
+<p>Link do repositório do Back-end: <a href="https://github.com/BananaScripts/Meteorological-Data-Collector-Backend/tree/main">https://github.com/BananaScripts/Meteorological-Data-Collector-Backend/tree/main</a></p>
 
 
  #### Status do projeto: Em Desenvolvimento ⏳
