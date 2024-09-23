@@ -6,7 +6,6 @@
      <a href="#comorodar">Como rodar o projeto</a> •
      <a href="#tecnologias">Ferramentas e Tecnologias</a> •
      <a href="#entregas">Entregas</a> • 
-     <a href="#metodologia">Integração e Entrega Contínua</a>•
      <a href="#backlog">Backlogs e User Stories</a> •
      <a href="#documentacao">Documentação</a> •
      <a href="#equipe">Equipe</a> 
@@ -62,19 +61,6 @@ Sprint ID | Data | Histórico | Status |
 #3 | 21.10.2024 - 10.11.2024 | <a href="">Relatório</a> | ❌
 #4 | 11.11.2024 - 01.12.2024 | <a href="">Relatório</a> | ❌
 
-<br>
-
-<span id="metodologia">
-
-### Integração e Entrega Contínua🚚
-<p>
-    A integração contínua e a entrega contínua são práticas essenciais para o desenvolvimento ágil e de alta qualidade em projetos de software. A integração contínua permite identificar e resolver problemas de integração rapidamente, enquanto a entrega contínua possibilita a liberação rápida de novas funcionalidades para os usuários. Para aplicar essas práticas, é fundamental utilizar ferramentas e técnicas específicas, como sistemas de integração contínua, testes automatizados e ferramentas de deployment automatizado. Essas ferramentas não apenas aumentam a eficiência do processo de desenvolvimento, mas também promovem um ambiente colaborativo e ágil, com foco na entrega de valor para o usuário final.
-</p>
-
-<ul>
-
-</ul>
- 
 <br>
 
 <span id="backlog">
