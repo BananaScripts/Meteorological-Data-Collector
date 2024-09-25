@@ -24,7 +24,20 @@ Nós somos estudantes da <a href='https://fatecsjc-prd.azurewebsites.net/'>FATEC
 </p>
 
 ### Apresentação do problema:
-<p></p> 
+<p>A empresa Tecsus realiza a coleta e o processamento de dados através de redes de sensores sem
+fio, também conhecidos como IoT (Internet das Coisas), na área de utilidades (água, energia e gás).
+Os dados são transmitidos por diversos meios de comunicação, dentre eles Sigfox, LoRa e GSM. A
+fim de expandir seu portfólio para o monitoramento ambiental, a empresa gostaria de
+experimentar o desenvolvimento de estações meteorológicas de baixo custo, com os seguintes
+sensores: direção e velocidade do vento, índice pluviométrico, umidade, temperatura e pressão.
+Essas informações devem ser coletadas periodicamente e enviadas para um servidor, onde os dados
+devem ser recepcionados, tratados e exibidos em um portal capaz de disponibilizar relatórios e
+dashboards. Com o intuito de envolver os alunos do ensino médio com a aprendizagem baseada
+em problemas, o portal deve demonstrar os conceitos matemáticos envolvidos nos cálculos dos
+parâmetros, bem como relacionar a importância do monitoramento ambiental como ferramenta
+para evitar desastres naturais através da geração de alertas. Serão disponibilizados alguns kits de
+estação meteorológica que, ao final do projeto, deverão ser instalados na Escola Estadual Elmano
+Ferreira Veloso e na Fatec de São José dos Campos.</p> 
 
 
 
