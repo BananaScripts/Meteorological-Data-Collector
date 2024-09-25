@@ -23,6 +23,11 @@ Nós somos estudantes da <a href='https://fatecsjc-prd.azurewebsites.net/'>FATEC
 <p>Para garantir o sucesso desse projeto, é essencial que os dados enviados pelos sensores sejam coletados e processados de forma que possam ser exibidos em um portal, com relatórios e dashboards. Além de fornecer informações e incluir conceitos matemáticos para o cálculo dos parâmetros, o sistema também visa demonstrar a importância do monitoramento ambiental. Isso é feito através da geração de alertas, ajudando a prevenir possíveis desastres naturais.
 </p>
 
+### Apresentação do problema:
+<p></p> 
+
+
+
 ## Link dos repositórios
 <p>Link do repositório do Front-end: <a href="https://github.com/BananaScripts/Meteorological-Data-Collector-Frontend/tree/main">https://github.com/BananaScripts/Meteorological-Data-Collector-Frontend/tree/main</a></p>
 
@@ -73,20 +78,21 @@ Sprint ID | Data | Status |
 
 | **ID** | **Requisitos Funcionais**                                                           | **Prioridade** |
 |--------|-------------------------------------------------------------------------------------|----------------|
-| 1      | Gerenciamento de estações                                                           | Alta           |
-| 2      | Gerenciamento de parâmetros                                                          | Alta           |
-| 3      | Gerenciamento de alertas                                                             | Alta           |
-| 4      | Gerenciamento de usuários                                                             | Alta           |
-| 5      | Captação de dados das estações ao longo do tempo                                     | Média          |
-| 6      | Visualização dos conceitos matemáticos envolvidos nos cálculos dos parâmetros        | Média          |
-| 7      | Visualização dos dados por meio de relatórios e dashboards                          | Média          |
-| 8      | Visualização dos alertas quando disparados                                           | Média          |
+| 1      | Desenvolvimento de um datalogger para uma estação meteorológica                                                           | Alta           |
+| 2      | Montagem de uma estação meteorológica                                                          | Alta           |
+| 3      | Gerenviamento das estações, parâmetros, alertas e usuários                                                             | Alta           |
+| 4      | Recepção de dados das estações meteorológicas                                                             | Alta           |
+| 5      | Dashboards para visualização dos parâmetros meteorológicos                                     | Média          |
+| 6      | Geração de alertas        | Média          |
+| 7      | Tutorial para os alunos do significado de cada parâmetro meteorológico                          | Média          |
 
 | **ID** | **Requisitos Não Funcionais**                                                    |
 |--------|----------------------------------------------------------------------------------|
-| 1      | Implementar CI/CD                                                                |
-| 2      | Documentação                                                                     |
-| 3      | Implementar uma explicação de cada parâmetro e suas contas                      |
+| 1      | Prezar pelo o UX dos dashboards                                                                |
+| 2      | Instigar nos alunos do ensino médio o gosto pe pelo estudo através da aprendizagem baseada em problemas                                                                     |
+| 3      | Documentaçôes de rotas das APIs                      |
+| 4      | Pipeline de IC | 
+| 5      | Deploy automático |
 
 ## Product Backlog📖
 
@@ -121,30 +127,30 @@ Sprint ID | Data | Status |
 ## User Stories 📖
 
 | **ID dos Requisitos** | **User Stories**                                                                                                              | **ID Product Backlog** |
-|----------------|-------------------------------------------------------------------------------------------------------------------------------|------------------------|
-| 1              | Como administrador, quero poder cadastrar novas estações meteorológicas, fornecendo informações como nome, localização e UUID, para que elas possam começar a enviar dados ao sistema. | 1                      |
-| 1              | Como administrador, quero uma interface intuitiva onde possa visualizar e gerenciar todas as estações cadastradas, permitindo verificar suas informações. | 2                      |
-| 1              | Como administrador, quero poder editar as informações de uma estação já cadastrada, como nome ou localização, para manter os dados sempre atualizados e refletir mudanças no ambiente físico. | 3                      |
-| 1              | Como administrador, quero poder excluir uma estação meteorológica do sistema, para remover estações que não estão mais em uso. | 4                      |
-| 2              | Como administrador, quero poder definir e configurar os tipos de parâmetros monitorados por cada estação, para garantir que cada estação colete os dados adequados de forma padronizada. | 5                      |
-| 2              | Como administrador, quero poder editar os tipos de parâmetros monitorados por cada estação, para ajustar as medições conforme necessário. | 6                      |
-| 2              | Como administrador, quero poder visualizar uma lista dos tipos de parâmetros com suas unidades de medida, nome e fator, para revisar ou ajustar as configurações conforme necessário. | 7                      |
-| 2              | Como administrador, quero poder excluir tipos de parâmetros específicos, caso não sejam mais necessários para o monitoramento das estações. | 8                      |
-| 3              | Como administrador, quero poder configurar alertas baseados nos tipos de parâmetros monitorados, para que o sistema me avise quando valores críticos forem atingidos. | 14                     |
-| 8              | Como usuário, quero receber notificações automáticas quando um alerta for acionado, para que eu possa tomar as medidas necessárias. | 15                     |
-| 3              | Como administrador, quero que o sistema registre automaticamente os alertas gerados, com informações como o parâmetro que os causou, o valor registrado e a hora do evento. | 16                     |
-| 8              | Como administrador, quero poder visualizar um histórico dos alertas gerados, para revisar eventos anteriores e identificar padrões ou problemas recorrentes. | 17                     |
-| 4              | Como administrador, quero poder cadastrar novos usuários, fornecendo nome, email e senha, para que o sistema tenha controle de permissões e acesso seguro. | 9                      |
-| 4              | Como administrador, quero poder visualizar uma lista de todos os usuários cadastrados no sistema, com detalhes como nome e nível de acesso, para monitorar quem tem acesso ao sistema. | 10                     |
-| 4              | Como administrador, quero poder editar as informações de um usuário já cadastrado, como o nome ou senha, para manter os dados sempre atualizados e garantir a segurança do acesso. | 11                     |
-| 4              | Como administrador, quero poder excluir usuários do sistema.                                                                    | 12                     |
-| 5              | Como administrador, quero que o sistema receba os dados enviados pelas estações meteorológicas, para que eles sejam processados e armazenados corretamente. | 18                     |
-| 7              | Como sistema, preciso identificar corretamente cada estação através de seu UUID e registrar a data e hora do envio dos dados, para garantir a consistência e rastreabilidade das informações. | 19                     |
-| 5              | Como sistema, preciso processar e organizar os dados recebidos, descartando informações desnecessárias, para que apenas os parâmetros relevantes sejam armazenados. | 20                     |
-| 7              | Como usuário, quero visualizar os dados coletados das estações meteorológicas através de dashboards, para monitorar as condições climáticas de forma eficiente. | 21                     |
+|----|-------------------------------------------------------------------------------------------------------------------------------|------------------------|
+| 3              | Como administrador, quero poder cadastrar novas estações meteorológicas, fornecendo informações como nome, localização e UUID, para que elas possam começar a enviar dados ao sistema. | 1                      |
+| 3              | Como administrador, quero uma interface intuitiva onde possa visualizar e gerenciar todas as estações cadastradas, permitindo verificar suas informações. | 2                      |
+| 3              | Como administrador, quero poder editar as informações de uma estação já cadastrada, como nome ou localização, para manter os dados sempre atualizados e refletir mudanças no ambiente físico. | 3                      |
+| 3              | Como administrador, quero poder excluir uma estação meteorológica do sistema, para remover estações que não estão mais em uso. | 4                      |
+| 3              | Como administrador, quero poder definir e configurar os tipos de parâmetros monitorados por cada estação, para garantir que cada estação colete os dados adequados de forma padronizada. | 5                      |
+| 3             | Como administrador, quero poder editar os tipos de parâmetros monitorados por cada estação, para ajustar as medições conforme necessário. | 6                      |
+| 3              | Como administrador, quero poder visualizar uma lista dos tipos de parâmetros com suas unidades de medida, nome e fator, para revisar ou ajustar as configurações conforme necessário. | 7                      |
+| 3              | Como administrador, quero poder excluir tipos de parâmetros específicos, caso não sejam mais necessários para o monitoramento das estações. | 8                      |
+| 6              | Como administrador, quero poder configurar alertas baseados nos tipos de parâmetros monitorados, para que o sistema me avise quando valores críticos forem atingidos. | 14                     |
+| 6              | Como usuário, quero receber notificações automáticas quando um alerta for acionado, para que eu possa tomar as medidas necessárias. | 15                     |
+| 6              | Como administrador, quero que o sistema registre automaticamente os alertas gerados, com informações como o parâmetro que os causou, o valor registrado e a hora do evento. | 16                     |
+| 6              | Como administrador, quero poder visualizar um histórico dos alertas gerados, para revisar eventos anteriores e identificar padrões ou problemas recorrentes. | 17                     |
+| 3              | Como administrador, quero poder cadastrar novos usuários, fornecendo nome, email e senha, para que o sistema tenha controle de permissões e acesso seguro. | 9                      |
+| 3              | Como administrador, quero poder visualizar uma lista de todos os usuários cadastrados no sistema, com detalhes como nome e nível de acesso, para monitorar quem tem acesso ao sistema. | 10                     |
+| 3              | Como administrador, quero poder editar as informações de um usuário já cadastrado, como o nome ou senha, para manter os dados sempre atualizados e garantir a segurança do acesso. | 11                     |
+| 3              | Como administrador, quero poder excluir usuários do sistema.                                                                    | 12                     |
+| 4              | Como administrador, quero que o sistema receba os dados enviados pelas estações meteorológicas, para que eles sejam processados e armazenados corretamente. | 18                     |
+| 4              | Como sistema, preciso identificar corretamente cada estação através de seu UUID e registrar a data e hora do envio dos dados, para garantir a consistência e rastreabilidade das informações. | 19                     |
+| 4              | Como sistema, preciso processar e organizar os dados recebidos, descartando informações desnecessárias, para que apenas os parâmetros relevantes sejam armazenados. | 20                     |
+| 5              | Como usuário, quero visualizar os dados coletados das estações meteorológicas através de dashboards, para monitorar as condições climáticas de forma eficiente. | 21                     |
 | 6              | Como usuário, quero acessar textos que expliquem o significado de cada parâmetro meteorológico, para entender os conceitos monitorados pelas estações. | 22                     |
-| 6              | Como usuário, quero telas navegáveis que me permitam visualizar explicações sobre os parâmetros meteorológicos, e os dados coletados das estações em dashboards, para uma experiência educativa integrada. | 23                     |
-| 4              | Como usuário, quero poder criar uma conta e logar no site.                                                                    | 13                     |
+| 7              | Como usuário, quero telas navegáveis que me permitam visualizar explicações sobre os parâmetros meteorológicos, e os dados coletados das estações em dashboards, para uma experiência educativa integrada. | 23                     |
+|3              | Como usuário, quero poder criar uma conta e logar no site.                                                                    | 13                     |
 
 <br>
 
