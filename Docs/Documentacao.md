@@ -46,7 +46,7 @@ Tasks | Descrição da Tasks |
 
 <span id="Testes">
 
-<h2✅>Testes:</h2>
+<h2>✅Testes:</h2>
 
 <h4>A área de testes em DevOps é fundamental para garantir a qualidade e a confiabilidade do software ao longo do ciclo de desenvolvimento. Ela envolve a integração contínua de testes automatizados, que são executados em diferentes fases do pipeline de CI/CD (Integração Contínua/Entrega Contínua). Isso permite identificar e corrigir problemas rapidamente, reduzindo o tempo de feedback e aumentando a eficiência do processo.</h4>
 
