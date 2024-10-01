@@ -194,6 +194,10 @@ Estrutura dos dashboards definida| Os dashboards com os dados dos parâmetros mo
 <img src="./Docs/Images/Arquitetura_BananaScript.png" width="1000"/>
 <br>
 
+<h4>Link para a Documentação de CI</h4>
+
+<a href="/Docs/Documentacao.md"> 📂/Documentação de CI</a>
+
 <br>
 
 <span id="equipe">
