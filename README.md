@@ -12,7 +12,7 @@
 </p>
 
 # 👋Hello! Nós somos o grupo BananaScript
-Nós somos estudantes da <a href='https://fatecsjc-prd.azurewebsites.net/'>FATEC de São José dos Campos</a>e estamos no 4º semestre de Desenvolvimento de Software e multiplataformas.
+Nós somos estudantes da <a href='https://fatecsjc-prd.azurewebsites.net/'>FATEC de São José dos Campos</a> e estamos no 4º semestre de Desenvolvimento de Software e multiplataformas.
 
 
 
