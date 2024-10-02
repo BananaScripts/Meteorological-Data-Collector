@@ -196,7 +196,7 @@ Estrutura dos dashboards definida| Os dashboards com os dados dos parâmetros mo
 
 <h4>Link para a Documentação de CI</h4>
 
-<a href="/Docs/Documentacao.md"> 📂/Documentação de CI</a>
+<a href="https://github.com/BananaScripts/Meteorological-Data-Collector/wiki/Documenta%C3%A7%C3%A3o-de-CI"> 📂/Documentação de CI</a>
 
 <br>
 
