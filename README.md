@@ -138,17 +138,17 @@ Sprint ID | Data | Status | Relatório |
 | 23     | Deploy do banco de dados na web                                                                                     | 2          | Média           | Média          |
 | 24     | Implementar banco de dados no prisma                                                                       | 2          | Média           | Média          |
 | 25     | Implementar as estaççoes meterológicas funcionando no sistema.                                             | 3          | Alta            | Alta           |
-| 25     | Implementar a recepção automática dos dados das estações, registrando data e hora de envio também.         | 3          | Alta            | Média          |
-| 26     | O sistema deve identificar estações pelo UUID único ao receber dados e validar a integridade das informações. | 3          | Alta            | Média          |
-| 27     | Desenvolver sistema para organizar e processar dados recebidos, descartando informações inválidas.          | 3          | Alta            | Média          |
-| 28     | Implementar dashboards interativos para os usuários visualizarem os dados coletados pelas estações, incluindo gráficos. | 3 | Média | Média |
-| 29     | Desenvolver sistema de notificações automáticas para os alertas quando acionadas.                           | 3          | Média           | Alta          |
-| 30     | O sistema deve registrar automaticamente alertas armazenado no histórico de alertas, armazenando data, estação e parâmetro responsável. | 3          | | Média           | Alta          |
-| 31     | Criar uma tela de histórico de alertas, com filtros por data, estação e tipo de parâmetro. | 3          | | Média           | Alta          |
-| 32     | Desenvolver resposta visual no frontend do alerta gerado,  3          | | Média           | Alta          |
-| 29     | Criar banco de dados não relacional MongoDB para que os dados das estações metereológicas sejam coletados, tratados e mandados para o banco de dados relacional MySQL | 3 | Alta | Média |
-| 30     | Adicionar a funcionalidade de acessar textos explicativos detalhados para cada tipo de parâmetro monitorado. | 4          | Baixa           | Baixa          |
-| 31     | Criar telas que mostrem explicações visuais sobre o significado e importância de cada parâmetro meteorológico, ajudando o usuário a interpretar os dados. | 4 | Baixa | Baixa |
+| 26     | Implementar a recepção automática dos dados das estações, registrando data e hora de envio também.         | 3          | Alta            | Média          |
+| 27     | O sistema deve identificar estações pelo UUID único ao receber dados e validar a integridade das informações. | 3          | Alta            | Média          |
+| 28     | Desenvolver sistema para organizar e processar dados recebidos, descartando informações inválidas.          | 3          | Alta            | Média          |
+| 29     | Implementar dashboards interativos para os usuários visualizarem os dados coletados pelas estações, incluindo gráficos. | 3 | Média | Média |
+| 30     | Desenvolver sistema de notificações automáticas para os alertas quando acionadas.                           | 3          | Média           | Alta          |
+| 31     | O sistema deve registrar automaticamente alertas armazenado no histórico de alertas, armazenando data, estação e parâmetro responsável. | 3          | | Média           | Alta          |
+| 32     | Criar uma tela de histórico de alertas, com filtros por data, estação e tipo de parâmetro. | 3          | | Média           | Alta          |
+| 33     | Desenvolver resposta visual no frontend do alerta gerado,  3          | | Média           | Alta          |
+| 34     | Criar banco de dados não relacional MongoDB para que os dados das estações metereológicas sejam coletados, tratados e mandados para o banco de dados relacional MySQL | 3 | Alta | Média |
+| 35     | Adicionar a funcionalidade de acessar textos explicativos detalhados para cada tipo de parâmetro monitorado. | 4          | Baixa           | Baixa          |
+| 36     | Criar telas que mostrem explicações visuais sobre o significado e importância de cada parâmetro meteorológico, ajudando o usuário a interpretar os dados. | 4 | Baixa | Baixa |
 
 <a href="/Docs/BacklogPorSprint.pdf">Backlog separado por Sprint</a>
 
