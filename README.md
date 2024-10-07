@@ -127,17 +127,21 @@ Sprint ID | Data | Status | Relatório |
 | 14     | Implementar opções de excluir e editar alerta.                                                              | 1          | Alta            | Alta          |
 | 15     | Modelar banco da dados relacional MySQL onde serão armazenados os dados de Estação, Parâmetro, Dados do Parâmetro, Tipo do Parâmetro, Alertas, Histórico dos Alertas e Usuário. | 1          | Média           | Alta           |
 | 16     | Desenvolver a arquitetura do projeto, englobando a estrutura geral do sistema.                             | 1          | Alta            | Alta           |
-| 17     | Implementar sistema de criação de conta e login com autenticação de usuários utilizando email e senha.     | 2          | Média           | Média          |
-| 18     | Desenvolver sistema de notificações automáticas para os alertas quando acionadas.                          | 2          | Média           | Média          |
-| 19     | O sistema deve registrar automaticamente alertas armazenando data, estação e parâmetro responsável.         | 2          | Média           | Média          |
-| 20     | Criar uma tela de histórico de alertas, com filtros por data, estação e tipo de parâmetro.                  | 2          | Alta            | Média          |
-| 21     | Implementar a recepção automática dos dados das estações, registrando data e hora de envio também.         | 3          | Alta            | Média          |
-| 22     | O sistema deve identificar estações pelo UUID único ao receber dados e validar a integridade das informações. | 3          | Alta            | Média          |
-| 23     | Desenvolver sistema para organizar e processar dados recebidos, descartando informações inválidas.          | 3          | Alta            | Média          |
-| 24     | Implementar dashboards interativos para os usuários visualizarem os dados coletados pelas estações, incluindo gráficos. | 3 | Média | Média |
-| 25     | Criar banco de dados não relacional MongoDB para que os dados das estações metereológicas sejam coletados, tratados e mandados para o banco de dados relacional MySQL | 3 | Alta | Média |
-| 26     | Adicionar a funcionalidade de acessar textos explicativos detalhados para cada tipo de parâmetro monitorado. | 4          | Baixa           | Baixa          |
-| 27     | Criar telas que mostrem explicações visuais sobre o significado e importância de cada parâmetro meteorológico, ajudando o usuário a interpretar os dados. | 4 | Baixa | Baixa |
+| 17     | Refatorar Backend                                                                                          | 2          | Média           | Alta         |
+| 18     | Sistema de login                                                                                           | 2          | Média           | Alta         |
+| 19     | Simular envio de dados das estações                                                                        | 2          | Média           | Média          |
+| 20     | Tratar dados das estações                                                                                  | 2          | Média            | Média          |
+| 21     | Banco de dados não relacional                                                                              | 2          | Baixa            | Média          |
+| 22     | Dashboards das estações                                                                                    | 2          | Baixa            | Média          |     
+| 23     | Deploy do banco na web                                                                                     | 2          | Média            | Média          |
+| 24     | Implementar banco de dados no prisma                                                                       | 2          | Média            | Média          |
+| 25     | Implementar a recepção automática dos dados das estações, registrando data e hora de envio também.         | 3          | Alta            | Média          |
+| 26     | O sistema deve identificar estações pelo UUID único ao receber dados e validar a integridade das informações. | 3          | Alta            | Média          |
+| 27     | Desenvolver sistema para organizar e processar dados recebidos, descartando informações inválidas.          | 3          | Alta            | Média          |
+| 28     | Implementar dashboards interativos para os usuários visualizarem os dados coletados pelas estações, incluindo gráficos. | 3 | Média | Média |
+| 29     | Criar banco de dados não relacional MongoDB para que os dados das estações metereológicas sejam coletados, tratados e mandados para o banco de dados relacional MySQL | 3 | Alta | Média |
+| 30     | Adicionar a funcionalidade de acessar textos explicativos detalhados para cada tipo de parâmetro monitorado. | 4          | Baixa           | Baixa          |
+| 31     | Criar telas que mostrem explicações visuais sobre o significado e importância de cada parâmetro meteorológico, ajudando o usuário a interpretar os dados. | 4 | Baixa | Baixa |
 
 <a href="/Docs/BacklogPorSprint.pdf">Backlog separado por Sprint</a>
 
