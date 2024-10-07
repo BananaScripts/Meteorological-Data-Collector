@@ -39,7 +39,7 @@ para evitar desastres naturais através da geração de alertas. Serão disponib
 estação meteorológica que, ao final do projeto, deverão ser instalados na Escola Estadual Elmano
 Ferreira Veloso e na Fatec de São José dos Campos.</p>
 
-<a href="https://github.com/BananaScripts/Meteorological-Data-Collector/wiki/Documenta%C3%A7%C3%A3o-do-produto">Para mais informações, dê uma olhada na documetação do produto</a>
+<a href="https://github.com/BananaScripts/Meteorological-Data-Collector/wiki/Documenta%C3%A7%C3%A3o-do-produto">Para mais informações, dê uma olhada na documentação do produto</a>
 
 <br>
 
