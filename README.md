@@ -37,9 +37,11 @@ em problemas, o portal deve demonstrar os conceitos matemáticos envolvidos nos 
 parâmetros, bem como relacionar a importância do monitoramento ambiental como ferramenta
 para evitar desastres naturais através da geração de alertas. Serão disponibilizados alguns kits de
 estação meteorológica que, ao final do projeto, deverão ser instalados na Escola Estadual Elmano
-Ferreira Veloso e na Fatec de São José dos Campos.</p> 
+Ferreira Veloso e na Fatec de São José dos Campos.</p>
 
+<a href="https://github.com/BananaScripts/Meteorological-Data-Collector/wiki/Documenta%C3%A7%C3%A3o-do-produto">Para mais informações, dê uma olhada na documetação do produto</a>
 
+<br>
 
 ## Link dos repositórios
 <p>Link do repositório do Front-end: <a href="https://github.com/BananaScripts/Meteorological-Data-Collector-Frontend/tree/main">https://github.com/BananaScripts/Meteorological-Data-Collector-Frontend/tree/main</a></p>
@@ -198,7 +200,7 @@ Estrutura dos dashboards definida| Os dashboards com os dados dos parâmetros mo
 <img src="./Docs/Images/Arquitetura_BananaScript.png" width="1000"/>
 <br>
 
-<h4>Link para a Documentação de CI:</h4>
+<h2>📑Link para a Documentação de CI:</h4>
 
 <a href="https://github.com/BananaScripts/Meteorological-Data-Collector/wiki"> 📂/Documentação de CI</a>
 
