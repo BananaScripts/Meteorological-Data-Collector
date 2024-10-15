@@ -199,7 +199,11 @@ Estrutura dos dashboards definida| Os dashboards com os dados dos parâmetros mo
 <span id="documentacao">
  
  ### Documentação📄
- 
+
+<h2>📑Link para a Documentação do projeto:</h4>
+
+<a href="https://github.com/BananaScripts/Meteorological-Data-Collector/wiki"> 📂/Documentação do projeto</a>
+
 <h4>Modelo de Dados</h4>
 <br>
 <img src="./Docs/Images/ModeloBD_API-Kickoff.png" width="1000"/>
@@ -209,9 +213,6 @@ Estrutura dos dashboards definida| Os dashboards com os dados dos parâmetros mo
 <img src="./Docs/Images/Arquitetura_BananaScript.png" width="1000"/>
 <br>
 
-<h2>📑Link para a Documentação de CI:</h4>
-
-<a href="https://github.com/BananaScripts/Meteorological-Data-Collector/wiki"> 📂/Documentação de CI</a>
 
 <br>
 
