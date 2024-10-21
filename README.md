@@ -70,6 +70,7 @@ Ferreira Veloso e na Fatec de São José dos Campos.</p>
 <img src="https://img.shields.io/badge/Node.js-5751D3?style=for-the-badge&logo=nodedotjs&logoColor=EDF0F9"/>
 <img src="https://img.shields.io/badge/TypeScript-5751D3?style=for-the-badge&logo=typescript&logoColor=EDF0F9"/> 
 <img src="https://img.shields.io/badge/MySQL-5751D3?style=for-the-badge&logo=mysql&logoColor=EDF0F9"/> 
+<img src="https://img.shields.io/badge/MySQL-5751D3?style=for-the-badge&logo=prisma&logoColor=EDF0F9"/>
 </p> 
   
 <br>
