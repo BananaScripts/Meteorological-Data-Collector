@@ -130,21 +130,21 @@ Sprint ID | Data | Status | Relatório |
 | 15     | Modelar banco da dados relacional MySQL onde serão armazenados os dados de Estação, Parâmetro, Dados do Parâmetro, Tipo do Parâmetro, Alertas, Histórico dos Alertas e Usuário. | 1          | Média           | Alta           |
 | 16     | Desenvolver a arquitetura do projeto, englobando a estrutura geral do sistema.                             | 1          | Alta            | Alta           |
 | 17     | Refatorar Código do Backend                                                                                | 2          | Média           | Alta           |
-| 18     | Sistema de login e criação de conta                                                                                          | 2          | Média           | Alta         |
-| 19     | Simular envio de dados das estações                                                                        | 2          | Média           | Média          |
-| 20     | Desenvolver sistema para organizar e processar dados recebidos, descartando informações inválidas.         | 2          | Média           | Média          |
-| 21     | Criar Banco de dados não relacional                                                                              | 2          | Baixa           | Média          |
-| 22     | Implementar Dashboards interativos para os usuários visualizarem os dados coletados pelas estações, incluindo gráficos. | 2          | Baixa           | Média          |     
-| 23     | Deploy do banco de dados na web                                                                                     | 2          | Média           | Média          |
-| 24     | Implementar banco de dados no prisma                                                                       | 2          | Média           | Média          |
-| 25     | Implementar as estações meterológicas funcionando no sistema.                                             | 3          | Alta            | Alta           |
-| 26     | Implementar a recepção automática dos dados das estações, registrando data e hora de envio também.         | 3          | Alta            | Média          |
-| 27     | O sistema deve identificar estações pelo UUID único ao receber dados e validar a integridade das informações. | 3          | Alta            | Média          |
-| 28     | Desenvolver sistema para organizar e processar dados recebidos, descartando informações inválidas.          | 3          | Alta            | Média          |
-| 29     | Desenvolver sistema de notificações automáticas para os alertas quando acionadas.                           | 3          | Média           | Alta          |
-| 30     | O sistema deve registrar automaticamente alertas armazenado no histórico de alertas, armazenando data, estação e parâmetro responsável. | 3           | Média           | Alta          |
-| 31     | Criar uma tela de histórico de alertas, com filtros por data, estação e tipo de parâmetro. | 3           | Média           | Alta          |
-| 32     | Desenvolver resposta visual no frontend do alerta gerado.  | 3           | Média           | Alta          |
+| 18     | Simular envio de dados das estações                                                                        | 2          | Média           | Média          |
+| 19     | Desenvolver sistema para organizar e processar dados recebidos, descartando informações inválidas.         | 2          | Média           | Média          |
+| 20     | Criar Banco de dados não relacional                                                                              | 2          | Baixa           | Média          |
+| 21     | Implementar Dashboards interativos para os usuários visualizarem os dados coletados pelas estações, incluindo gráficos. | 2          | Baixa           | Média          |     
+| 22     | Deploy do banco de dados na web                                                                                     | 2          | Média           | Média          |
+| 23     | Implementar banco de dados no prisma                                                                       | 2          | Média           | Média          |
+| 24     | Implementar as estações meterológicas funcionando no sistema.                                             | 3          | Alta            | Alta           |
+| 25     | Implementar a recepção automática dos dados das estações, registrando data e hora de envio também.         | 3          | Alta            | Média          |
+| 26     | O sistema deve identificar estações pelo UUID único ao receber dados e validar a integridade das informações. | 3          | Alta            | Média          |
+| 27     | Terminar sistema de processamento de dados, acrescentando o tratamento dos dados das estações.          | 3          | Alta            | Média          |
+| 28     | Desenvolver sistema de notificações automáticas para os alertas quando acionadas.                           | 3          | Média           | Alta          |
+| 29     | O sistema deve registrar automaticamente alertas armazenado no histórico de alertas, armazenando data, estação e parâmetro responsável. | 3           | Média           | Alta          |
+| 30     | Criar uma tela de histórico de alertas, com filtros por data, estação e tipo de parâmetro. | 3           | Média           | Alta          |
+| 31     | Desenvolver resposta visual no frontend do alerta gerado.  | 3           | Média           | Alta          |
+| 32     | Sistema de login e criação de conta                                                                          | 4          | Média           | Baixa         |
 | 33     | Adicionar a funcionalidade de acessar textos explicativos detalhados para cada tipo de parâmetro monitorado. | 4          | Baixa           | Baixa          |
 | 34     | Criar telas que mostrem explicações visuais sobre o significado e importância de cada parâmetro meteorológico, ajudando o usuário a interpretar os dados. | 4 | Baixa | Baixa |
 
