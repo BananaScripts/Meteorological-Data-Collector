@@ -81,7 +81,7 @@ Ferreira Veloso e na Fatec de São José dos Campos.</p>
 Sprint ID | Data | Status | Relatório |
 ----------|------| --------|--------- |
 #1 | 09.09.2024 - 29.09.2024 | ✅ | <a href="https://github.com/BananaScripts/Meteorological-Data-Collector/wiki/Sprint-%E2%80%90-1">Sprint 1</a>
-#2 | 30.09.2024 - 20.10.2024 | ❌ | <a href="https://github.com/BananaScripts/Meteorological-Data-Collector/wiki/Sprint-%E2%80%90-2">Sprint 2</a> 
+#2 | 30.09.2024 - 20.10.2024 | ✅ | <a href="https://github.com/BananaScripts/Meteorological-Data-Collector/wiki/Sprint-%E2%80%90-2">Sprint 2</a> 
 #3 | 21.10.2024 - 10.11.2024 | ❌ | <a href="https://github.com/BananaScripts/Meteorological-Data-Collector/wiki/Sprint-%E2%80%90-3">Sprint 3</a>
 #4 | 11.11.2024 - 01.12.2024 | ❌ | <a href="https://github.com/BananaScripts/Meteorological-Data-Collector/wiki/Sprint-%E2%80%90-4">Sprint 4</a>
 
@@ -226,7 +226,6 @@ Estrutura dos dashboards definida| Os dashboards com os dados dos parâmetros mo
 | Douglas Medeiros |<a href='https://www.linkedin.com/in/douglas-ferrini-medeiros-02b735270'><img src='https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white'></a>|<a href='https://www.github.com/DouglasMedeiros1'> <img src='https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white'></a>
 | Gustavo Borges  |<a href='https://www.linkedin.com/in/gustavo-borges-lima-855440243/'><img src='https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white'></a>|<a href='https://github.com/Miojoguu'> <img src='https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white'></a>
 | Kaue Riki |<a href='https://www.linkedin.com/in/kau%C3%AA-riki-70b518273/'><img src='https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white'></a>|<a href='https://github.com/kaueriki'> <img src='https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white'></a>
-| Lucca Vilela |<a href='https://www.linkedin.com/in/lucca-vilela-b90730232/'><img src='https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white'></a>|<a href='https://github.com/luccavilela'> <img src='https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white'></a>
 | Miguel Conde |<a href='https://www.linkedin.com/in/miguel-conde-santos-a67313271/'><img src='https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white'></a>|<a href='https://github.com/miguelcondesantos'> <img src='https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white'></a>
 | Gabriel Henrique Siqueira |<a href='https://www.linkedin.com/in/gabriel-siqueira-54b535279/'><img src='https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white'></a>|<a href='https://github.com/GaSiqueira'> <img src='https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white'></a>
 
