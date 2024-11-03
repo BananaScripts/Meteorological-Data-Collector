@@ -93,61 +93,101 @@ Sprint ID | Data | Status | Relatório |
 
 | **ID** | **Requisitos Funcionais**                                                           | **Prioridade** |
 |--------|-------------------------------------------------------------------------------------|----------------|
-| 1      | Desenvolvimento de um datalogger para uma estação meteorológica                                                           | Alta           |
-| 2      | Montagem de uma estação meteorológica                                                          | Alta           |
-| 3      | Gerenviamento das estações, parâmetros, alertas e usuários                                                             | Alta           |
-| 4      | Recepção de dados das estações meteorológicas                                                             | Alta           |
-| 5      | Dashboards para visualização dos parâmetros meteorológicos                                     | Média          |
-| 6      | Geração de alertas        | Média          |
-| 7      | Tutorial para os alunos do significado de cada parâmetro meteorológico                          | Média          |
+| 1      | Captação de dados das estações ao longo do tempo                                    | Alta           |
+| 2      | Montagem de uma estação meteorológica                                               | Alta           |
+| 3      | Gerenciamento das estações, parâmetros, alertas e usuários                          | Alta           |
+| 4      | Recepção de dados das estações meteorológicas                                       | Alta           |
+| 5      | Dashboards para visualização dos parâmetros meteorológicos                          | Média          |
+| 6      | Geração de alertas                                                                  | Média          |
+| 7      | Visualização dos alertas quando disparados                                          | Média          |
+| 8      | Tutorial para os alunos sobre o significado de cada parâmetro meteorológico         | Média          |
 
-| **ID** | **Requisitos Não Funcionais**                                                    |
-|--------|----------------------------------------------------------------------------------|
-| 1      | Prezar pelo o UX dos dashboards                                                                |
-| 2      | Instigar nos alunos do ensino médio o gosto pe pelo estudo através da aprendizagem baseada em problemas                                                                     |
-| 3      | Documentaçôes de rotas das APIs                      |
-| 4      | Pipeline de IC | 
-| 5      | Deploy automático |
+**Requisitos Não Funcionais**                                                   |
+----------------------------------------------------------------------------------|
+| 9       | Implementar CI/CD                                                                |
+| 10      | Instigar nos alunos do ensino médio o gosto pelo estudo através da aprendizagem baseada em problemas |
+| 11      | Documentação                  | 
+| 12      | Deploy automático |
 
-## Product Backlog📖
+## Product Backlog 📖
 
-| **ID** | **Descrição**                                                                                             | **Sprint** | **Dificuldade** | **Prioridade** |
-|--------|-----------------------------------------------------------------------------------------------------------|------------|-----------------|----------------|
-| 1      | Desenvolver uma tela de cadastro para estação com campos para nome, localização e UUID único. Validar dados e evitar duplicidades. | 1          | Média           | Alta           |
-| 2      | Criar uma interface intuitiva para listar todas as estações cadastradas.                                   | 1          | Média           | Média          |
-| 3      | Implementar a funcionalidade de editar informações das estações                                            | 1          | Média           | Alta           |
-| 4      | Desenvolver uma opção de exclusão e edição das estações.                                                   | 1          | Baixa           | Média          |
-| 5      | Definir e configurar tipos de parâmetros monitorados por estação, como nome, unidade e fator de conversão. | 1          | Alta            | Alta           |
-| 6      | Editar tipos de parâmetros monitorados por estação, com atualização de nome, unidade e fator de conversão. | 1          | Alta            | Média          |
-| 7      | Criar uma tela para exibir todos os tipos de parâmetros cadastrados com suas unidades e fatores.           | 1          | Média           | Média          |
-| 8      | Permitir exclusão de parâmetros, garantindo que não haja dados vinculados antes de proceder.               | 1          | Baixa           | Média          |
-| 9      | Desenvolver formulário de cadastro de usuários com nome, email, senha.                                     | 1          | Média           | Alta           |
-| 10     | Criar uma tela para listar todos os usuários cadastrados.                                                  | 1          | Baixa           | Média          |
-| 11     | Implementar funcionalidade de edição de usuários, permitindo alteração de nome, email e senha.             | 1          | Média           | Alta           |
-| 12     | Desenvolver opção de exclusão de usuários, garantindo que não haja dados críticos vinculados ao usuário antes da exclusão. | 1 | Baixa           | Média          |
-| 13     | Implementar a definição de condições de alerta para cada parâmetro monitorado.                             | 1          | Alta            | Alta           |
-| 14     | Implementar opções de excluir e editar alerta.                                                             | 1          | Alta            | Média          |
-| 15     | Modelar banco da dados relacional MySQL onde serão armazenados os dados de Estação, Parâmetro, Dados do Parâmetro, Tipo do Parâmetro, Alertas, Histórico dos Alertas e Usuário. | 1 | Média           | Alta           |
-| 16     | Desenvolver a arquitetura do projeto, englobando a estrutura geral do sistema.                             | 1          | Alta            | Alta           |
-| 17     | Refatorar Código do Backend                                                                                | 2          | Média           | Alta           |
-| 18     | Simular envio de dados das estações                                                                        | 2          | Média           | Média          |
-| 19     | Desenvolver sistema para organizar e processar dados recebidos, descartando informações inválidas.         | 2          | Média           | Alta           |
-| 20     | Criar Banco de dados não relacional                                                                        | 2          | Baixa           | Média          |
-| 21     | Implementar Dashboards interativos para os usuários visualizarem os dados coletados pelas estações, incluindo gráficos. | 2 | Baixa           | Média          |
-| 22     | Deploy do banco de dados na web                                                                            | 2          | Média           | Alta           |
-| 23     | Implementar banco de dados no prisma                                                                       | 2          | Média           | Alta           |
-| 24     | Implementar as estações meteorológicas funcionando no sistema.                                             | 3          | Alta            | Alta           |
-| 25     | Implementar a recepção automática dos dados das estações, registrando data e hora de envio também.         | 3          | Alta            | Média          |
-| 26     | O sistema deve identificar estações pelo UUID único ao receber dados e validar a integridade das informações. | 3          | Alta            | Média          |
-| 27     | Terminar sistema de processamento de dados, acrescentando o tratamento dos dados das estações.             | 3          | Alta            | Alta           |
-| 28     | Desenvolver sistema de notificações automáticas para os alertas quando acionadas.                          | 3          | Média           | Alta           |
-| 29     | O sistema deve registrar automaticamente alertas armazenado no histórico de alertas, armazenando data, estação e parâmetro responsável. | 3 | Média           | Alta           |
-| 30     | Criar uma tela de histórico de alertas, com filtros por data, estação e tipo de parâmetro.                 | 3          | Média           | Alta           |
-| 31     | Desenvolver resposta visual no frontend do alerta gerado.                                                  | 3          | Média           | Alta           |
-| 32     | Fazer deploy da aplicação                                                                                  | 3          | Alta            | Média          |
-| 33     | Sistema de login e criação de conta                                                                        | 4          | Média           | Baixa          |
-| 34     | Adicionar a funcionalidade de acessar textos explicativos detalhados para cada tipo de parâmetro monitorado. | 4 | Baixa           | Baixa          |
-| 35     | Criar telas que mostrem explicações visuais sobre o significado e importância de cada parâmetro meteorológico, ajudando o usuário a interpretar os dados. | 4 | Baixa | Baixa          |
+| **Requisito** | **ID** | **Item**                                                                                     | **Prioridade** |
+|---------------|--------|----------------------------------------------------------------------------------------------|----------------|
+| 3             | 1      | Desenvolver tela de cadastro para estação, com campos de nome, localização e UUID único      | Alta           |
+| 3             | 2      | Criar interface para listar estações                                                         | Alta           |
+| 3             | 3      | Editar informações das estações                                                              | Alta           |
+| 3             | 4      | Opção para exclusão e edição das estações                                                    | Alta           |
+| 3             | 5      | Definir e configurar tipos de parâmetros monitorados por estação                             | Alta           |
+| 3             | 6      | Editar tipos de parâmetros monitorados por estação                                           | Alta           |
+| 3             | 7      | Tela para exibir tipos de parâmetros cadastrados                                             | Alta           |
+| 3             | 8      | Exclusão de parâmetros, garantindo ausência de dados vinculados                              | Alta           |
+| 3             | 9      | Formulário de cadastro de usuários com nome, email, senha                                    | Alta           |
+| 3             | 10     | Tela para listar todos os usuários cadastrados                                               | Alta           |
+| 3             | 11     | Funcionalidade de edição de usuários                                                         | Alta           |
+| 3             | 12     | Exclusão de usuários, garantindo ausência de dados críticos vinculados                       | Alta           |
+| 6             | 13     | Definição de condições de alerta para cada parâmetro monitorado                              | Alta           |
+| 6             | 14     | Opções para excluir e editar alerta                                                          | Alta           |
+| 4             | 15     | Modelar banco de dados relacional para armazenar dados de estações e parâmetros              | Alta           |
+| 4             | 16     | Arquitetura do projeto, abrangendo estrutura geral do sistema                                | Alta           |
+| 1             | 17     | Refatoração do código do backend                                                             | Média          |
+| 1             | 18     | Simulação de envio de dados das estações                                                     | Média          |
+| 1             | 19     | Sistema para organizar e processar dados recebidos                                           | Média          |
+| 4             | 20     | Criar banco de dados não relacional para armazenamento de dados                              | Média          |
+| 5             | 21     | Dashboards interativos para visualização dos dados coletados                                 | Média          |
+| 12            | 22     | Deploy do banco de dados na web                                                              | Média          |
+| 4             | 23     | Implementação do banco de dados no Prisma                                                    | Média          |
+| 2             | 24     | Implementação das estações meteorológicas funcionando no sistema                             | Média          |
+| 1             | 25     | Recepção automática de dados das estações, com registro de data e hora                       | Média          |
+| 3             | 26     | Identificação de estações pelo UUID ao receber dados                                         | Média          |
+| 1             | 27     | Sistema de processamento de dados para tratamento das informações das estações               | Média          |
+| 7             | 28     | Sistema de notificações automáticas para alertas                                             | Média          |
+| 7             | 29     | Registro automático de alertas no histórico, com dados de data, estação e parâmetro          | Média          |
+| 6             | 30     | Tela de histórico de alertas, com filtros por data, estação e parâmetro                      | Média          |
+| 7             | 31     | Resposta visual no frontend para alertas gerados                                             | Média          |
+| 12            | 32     | Deploy da aplicação                                                                          | Média          |
+| 3             | 33     | Sistema de login e criação de conta                                                          | Média          |
+| 8             | 34     | Funcionalidade de textos explicativos para cada tipo de parâmetro monitorado                | Baixa          |
+| 8             | 35     | Telas explicativas visuais sobre o significado e importância de cada parâmetro meteorológico | Baixa          |
+
+## Tarefas das Sprints
+
+| **ID** | **Descrição**                                                                                             | **Sprint** 
+|--------|-----------------------------------------------------------------------------------------------------------|------------|
+| 1      | Desenvolver uma tela de cadastro para estação com campos para nome, localização e UUID único. Validar dados e evitar duplicidades. |
+| 2      | Criar uma interface intuitiva para listar todas as estações cadastradas.                                   | 1          | 
+| 3      | Implementar a funcionalidade de editar informações das estações                                            | 1          | 
+| 4      | Desenvolver uma opção de exclusão e edição das estações.                                                   | 1          | 
+| 5      | Definir e configurar tipos de parâmetros monitorados por estação, como nome, unidade e fator de conversão. | 1          | 
+| 6      | Editar tipos de parâmetros monitorados por estação, com atualização de nome, unidade e fator de conversão. | 1          |
+| 7      | Criar uma tela para exibir todos os tipos de parâmetros cadastrados com suas unidades e fatores.           | 1          |
+| 8      | Permitir exclusão de parâmetros, garantindo que não haja dados vinculados antes de proceder.               | 1          |
+| 9      | Desenvolver formulário de cadastro de usuários com nome, email, senha.                                     | 1          |
+| 10     | Criar uma tela para listar todos os usuários cadastrados.                                                  | 1          |
+| 11     | Implementar funcionalidade de edição de usuários, permitindo alteração de nome, email e senha.             | 1          |
+| 12     | Desenvolver opção de exclusão de usuários, garantindo que não haja dados críticos vinculados ao usuário antes da exclusão. | 1 |
+| 13     | Implementar a definição de condições de alerta para cada parâmetro monitorado.                             | 1          |
+| 14     | Implementar opções de excluir e editar alerta.                                                             | 1          |
+| 15     | Modelar banco da dados relacional MySQL onde serão armazenados os dados de Estação, Parâmetro, Dados do Parâmetro, Tipo do Parâmetro, Alertas, Histórico dos Alertas e Usuário. | 1 |
+| 16     | Desenvolver a arquitetura do projeto, englobando a estrutura geral do sistema.                             | 1          |
+| 17     | Refatorar Código do Backend                                                                                | 2          |
+| 18     | Simular envio de dados das estações                                                                        | 2          | 
+| 19     | Desenvolver sistema para organizar e processar dados recebidos, descartando informações inválidas.         | 2          | 
+| 20     | Criar Banco de dados não relacional                                                                        | 2          |
+| 21     | Implementar Dashboards interativos para os usuários visualizarem os dados coletados pelas estações, incluindo gráficos. | 2 |
+| 22     | Deploy do banco de dados na web                                                                            | 2          | 
+| 23     | Implementar banco de dados no prisma                                                                       | 2          | 
+| 24     | Implementar as estações meteorológicas funcionando no sistema.                                             | 3          | 
+| 25     | Implementar a recepção automática dos dados das estações, registrando data e hora de envio também.         | 3          | 
+| 26     | O sistema deve identificar estações pelo UUID único ao receber dados e validar a integridade das informações. | 3          | 
+| 27     | Terminar sistema de processamento de dados, acrescentando o tratamento dos dados das estações.             | 3          |
+| 28     | Desenvolver sistema de notificações automáticas para os alertas quando acionadas.                          | 3          | 
+| 29     | O sistema deve registrar automaticamente alertas armazenado no histórico de alertas, armazenando data, estação e parâmetro responsável. | 3 |
+| 30     | Criar uma tela de histórico de alertas, com filtros por data, estação e tipo de parâmetro.                 | 3          | 
+| 31     | Desenvolver resposta visual no frontend do alerta gerado.                                                  | 3          |
+| 32     | Fazer deploy da aplicação                                                                                  | 3          | 
+| 33     | Sistema de login e criação de conta                                                                        | 4          |
+| 34     | Adicionar a funcionalidade de acessar textos explicativos detalhados para cada tipo de parâmetro monitorado. | 4 |
+| 35     | Criar telas que mostrem explicações visuais sobre o significado e importância de cada parâmetro meteorológico, ajudando o usuário a interpretar os dados. | 4 |
 
 
 <a href="/Docs/BacklogPorSprint.pdf">Backlog separado por Sprint</a>
