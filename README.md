@@ -91,6 +91,8 @@ Sprint ID | Data | Status | Relatório |
 
 ## Requisitos
 
+### Requisitos Funcionais
+
 | **ID** | **Requisitos Funcionais**                                                           | **Prioridade** |
 |--------|-------------------------------------------------------------------------------------|----------------|
 | 1      | Captação de dados das estações ao longo do tempo                                    | Alta           |
@@ -102,12 +104,15 @@ Sprint ID | Data | Status | Relatório |
 | 7      | Visualização dos alertas quando disparados                                          | Média          |
 | 8      | Tutorial para os alunos sobre o significado de cada parâmetro meteorológico         | Média          |
 
-**Requisitos Não Funcionais**                                                   |
-----------------------------------------------------------------------------------|
-| 9       | Implementar CI/CD                                                                |
-| 10      | Instigar nos alunos do ensino médio o gosto pelo estudo através da aprendizagem baseada em problemas |
-| 11      | Documentação                  | 
-| 12      | Deploy automático |
+### Requisitos Não Funcionais
+
+| **ID** | **Requisitos Não Funcionais**                                          |
+|--------|-----------------------------------------------------------------------|
+| 9      | Implementar CI/CD                                                     |
+| 10     | Instigar nos alunos do ensino médio o gosto pelo estudo através da aprendizagem baseada em problemas |
+| 11     | Documentação                                                          | 
+| 12     | Deploy automático                                                     |
+
 
 ## Product Backlog 📖
 
