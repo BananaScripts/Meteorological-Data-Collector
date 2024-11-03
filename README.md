@@ -158,7 +158,7 @@ Sprint ID | Data | Status | Relatório |
 
 | **ID** | **Descrição**                                                                                             | **Sprint** 
 |--------|-----------------------------------------------------------------------------------------------------------|------------|
-| 1      | Desenvolver uma tela de cadastro para estação com campos para nome, localização e UUID único. Validar dados e evitar duplicidades. |
+| 1      | Desenvolver uma tela de cadastro para estação com campos para nome, localização e UUID único. Validar dados e evitar duplicidades. | 1 |
 | 2      | Criar uma interface intuitiva para listar todas as estações cadastradas.                                   | 1          | 
 | 3      | Implementar a funcionalidade de editar informações das estações                                            | 1          | 
 | 4      | Desenvolver uma opção de exclusão e edição das estações.                                                   | 1          | 
@@ -233,7 +233,7 @@ Sprint ID | Data | Status | Relatório |
 
 <br>
 
-### DoD e DoR
+## DoD e DoR
 DoR (Definition of Ready) | DoD (Definition of Done) |
 -------------------------|---------------------------|
 As User Stories devem estar claras, e o design da interface deve estar finalizado.| O sistema permite cadastrar, editar, visualizar e excluir estações. Os dados são validados corretamente, a interface é intuitiva.| 
