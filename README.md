@@ -206,6 +206,8 @@ Sprint ID | Data | Status | Relatório |
 | 4                     | Como usuário, quero que o sistema identifique estações pelo UUID único ao receber dados e valide a integridade das informações. | 27                     |
 | 4                     | Como administrador, quero implementar dashboards interativos para que os usuários visualizem os dados coletados pelas estações, incluindo gráficos. | 29                     |
 | 4                     | Como desenvolvedor, quero criar um banco de dados não relacional MongoDB para coletar e tratar dados das estações meteorológicas, integrando com o banco de dados relacional MySQL. | 34                     |
+| 1                     | Como usuario, quero a captação dos dados das estações para poder visulizar eles no dashboards | 25 |
+| 2                     | Como administrador, quero a montagem das estações metereológicas para que elas possam começar e enviar dados | 24 |
 
 
 <br>
