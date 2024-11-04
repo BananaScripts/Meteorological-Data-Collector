@@ -103,15 +103,16 @@ Sprint ID | Data | Status | Relatório |
 | 6      | Geração de alertas                                                                  | Média          |
 | 7      | Visualização dos alertas quando disparados                                          | Média          |
 | 8      | Tutorial para os alunos sobre o significado de cada parâmetro meteorológico         | Média          |
+| 9      | Cricação de conta para diferenciar ADM de Usuário                                   | Média          |
 
 ### Requisitos Não Funcionais
 
 | **ID** | **Requisitos Não Funcionais**                                          |
 |--------|-----------------------------------------------------------------------|
-| 9      | Implementar CI/CD                                                     |
-| 10     | Instigar nos alunos do ensino médio o gosto pelo estudo através da aprendizagem baseada em problemas |
-| 11     | Documentação                                                          | 
-| 12     | Deploy automático                                                     |
+| 10      | Implementar CI/CD                                                     |
+| 11     | Instigar nos alunos do ensino médio o gosto pelo estudo através da aprendizagem baseada em problemas |
+| 12     | Documentação                                                          | 
+| 13     | Deploy automático                                                     |
 
 
 ## Product Backlog 📖
