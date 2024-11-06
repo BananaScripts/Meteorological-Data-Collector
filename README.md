@@ -240,6 +240,10 @@ Estrutura dos dashboards definida| Os dashboards com os dados dos parâmetros mo
 <img src="./Docs/Images/Arquitetura_BananaScript.png" width="1000"/>
 <br>
 
+<h4> Rotas </h4>
+Todas as rotas estão documentadas no swagger, aqui está o link:
+
+<a href="https://app.swaggerhub.com/apis-docs/KAUERIKI/Seth/1.0.0"> Documentação de rotas no swagger </a>
 
 <br>
 
