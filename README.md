@@ -82,7 +82,7 @@ Sprint ID | Data | Status | Relatório |
 ----------|------| --------|--------- |
 #1 | 09.09.2024 - 29.09.2024 | ✅ | <a href="https://github.com/BananaScripts/Meteorological-Data-Collector/wiki/Sprint-%E2%80%90-1">Sprint 1</a>
 #2 | 30.09.2024 - 20.10.2024 | ✅ | <a href="https://github.com/BananaScripts/Meteorological-Data-Collector/wiki/Sprint-%E2%80%90-2">Sprint 2</a> 
-#3 | 21.10.2024 - 10.11.2024 | ❌ | <a href="https://github.com/BananaScripts/Meteorological-Data-Collector/wiki/Sprint-%E2%80%90-3">Sprint 3</a>
+#3 | 21.10.2024 - 10.11.2024 | ✅ | <a href="https://github.com/BananaScripts/Meteorological-Data-Collector/wiki/Sprint-%E2%80%90-3">Sprint 3</a>
 #4 | 11.11.2024 - 01.12.2024 | ❌ | <a href="https://github.com/BananaScripts/Meteorological-Data-Collector/wiki/Sprint-%E2%80%90-4">Sprint 4</a>
 
 <br>
