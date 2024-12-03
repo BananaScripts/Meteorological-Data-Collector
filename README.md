@@ -49,10 +49,10 @@ Ferreira Veloso e na Fatec de São José dos Campos.</p>
 <p>Link do repositório do Back-end: <a href="https://github.com/BananaScripts/Meteorological-Data-Collector-Backend/tree/main">https://github.com/BananaScripts/Meteorological-Data-Collector-Backend/tree/main</a></p>
 
 
- #### Status do projeto: Em Desenvolvimento ⏳
+ #### Status do projeto: Concluído
   
 
-<a href="https://github.com/BananaScripts/Meteorological-Data-Collector/wiki/Configura%C3%A7%C3%A3o-de-Ambiente">Como rodar o projeto</a>
+<a href="https://github.com/BananaScripts/Meteorological-Data-Collector/wiki/Documenta%C3%A7%C3%A3o-de-Desenvolvimento">Como rodar o projeto</a>
 
  <br>
  
@@ -78,12 +78,12 @@ Ferreira Veloso e na Fatec de São José dos Campos.</p>
 
 ### Entregas✅
 
-Sprint ID | Data | Status | Relatório |
-----------|------| --------|--------- |
-#1 | 09.09.2024 - 29.09.2024 | ✅ | <a href="https://github.com/BananaScripts/Meteorological-Data-Collector/wiki/Sprint-%E2%80%90-1">Sprint 1</a>
-#2 | 30.09.2024 - 20.10.2024 | ✅ | <a href="https://github.com/BananaScripts/Meteorological-Data-Collector/wiki/Sprint-%E2%80%90-2">Sprint 2</a> 
-#3 | 21.10.2024 - 10.11.2024 | ✅ | <a href="https://github.com/BananaScripts/Meteorological-Data-Collector/wiki/Sprint-%E2%80%90-3">Sprint 3</a>
-#4 | 11.11.2024 - 01.12.2024 | ❌ | <a href="https://github.com/BananaScripts/Meteorological-Data-Collector/wiki/Sprint-%E2%80%90-4">Sprint 4</a>
+Sprint ID | Data | Status  |
+----------|------| --------|
+#1 | 09.09.2024 - 29.09.2024 | ✅ | 
+#2 | 30.09.2024 - 20.10.2024 | ✅ |
+#3 | 21.10.2024 - 10.11.2024 | ✅ |
+#4 | 11.11.2024 - 01.12.2024 | ✅ |
 
 <br>
 
